@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
     "start": "node index.js",
-    "lint": "eslint .",
-    "build": "node --check index.js app.js"
+    "lint": "node --check app.js index.js", 
+    "build": "node --check index.js app.js",
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
